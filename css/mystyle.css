@@ -1,0 +1,326 @@
+#pcus{
+    color: rgb(129, 116, 116);
+
+}
+#contact{
+    color: rgb(201, 112, 60);
+    font-size: xx-large;  
+
+}
+#notrain{
+    color: rgb(0, 0, 0);
+    font-size: xx-large; 
+}
+
+#hm{
+    color: rgb(110, 117, 115);
+    
+}
+#contactnum{
+    color: rgb(114, 111, 111);
+    
+
+}
+#contnum{
+    color: rgb(53, 45, 45);
+    font-size: xx-large;
+
+}
+div.header{
+    background: linear-gradient(120deg,#979daf,#d9e8ff);
+    width: 900px;
+}
+
+div.regbackground{
+    background: linear-gradient(120deg,#a2a4a8,#ffffff);
+    height: 600px;
+ }
+div.reg{
+    padding: 50px;
+    margin: 5px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 16px;
+    width:400px;
+    position: relative;
+    top: 45px;
+    left:420;
+}
+
+div.loginbackground{
+    background: linear-gradient(120deg,#8fa1b9,#d9e8ff);
+    height: 600px;
+ }
+div.loginform{
+    padding: 5px;
+    margin: 15px;
+    background-color:rgb(255, 255, 255);
+    width:400px;
+    position: relative;
+    top: 45px;
+    left:450;
+    height: 350px;
+    border-radius: 16px;
+}
+div.profilebackground{
+    background: linear-gradient(120deg,#a2a4a8,#ffffff);
+    height: 820px;
+}
+div.profile{
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 16px;
+    width:650px;
+    position: relative;
+    top: 45px;
+    left:300;
+}
+
+div.footer{
+    position:relative;
+    top: 150px;
+}
+div.homebackground{
+    background: linear-gradient(120deg,#455d70,#ffffff);
+    height: 900px;
+}
+div.home{
+    padding: 5px;
+    border-radius: 16px;
+    margin: 10px;
+    background-color: rgb(250, 253, 255) ;
+    width:450px;
+    position: relative;
+    top: 80px;
+    left:400px;
+}
+.srcbutton{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    color: #ffffff;
+    background: #095e25;
+    border-radius: 16px;
+}
+.signbutton{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    color: rgb(114, 100, 100);
+    border: 1px solid green;
+    border-radius: 16px;
+}
+div.buy{
+    padding: 10px;
+    margin: 10px;
+    background-color:#bfcfda;
+   
+    width:450px;
+    position: relative;
+    top: 50px;
+    left:30;
+}
+
+.button {
+    background-color: #2d69a0;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 100%;
+  }
+  .buttonprofile{
+    background-color: #0b6e29;
+    border-radius: 16px;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 100%;
+    
+
+  }
+  .buttondelete{
+    background-color: red;
+    border-radius: 16px;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 100%;
+    
+
+  }
+  .buttondelete:hover{
+    background-color: rgb(230, 6, 6);
+  }
+  .buttonprofile:hover{
+    background-color: #094d1d;
+    
+    
+
+  }
+  .buttonsrc{
+    border-radius: 16px;
+    background-color: #5e5d5a;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 100%;
+  }
+  .buttonsrc:hover{
+    background-color: #3a3938;
+  }
+
+  
+  .de{
+    background-image:url(../resources/bkash7.jpg);
+    background-size:cover;
+    background-position:center;
+}
+.container{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    position: relative;
+    width: 100%;
+	height: 50px;
+    border-radius: 10px;
+    background: #475058;
+    padding: 10px;
+	box-shadow: 0 5px 3px 0 rgba(0,0,0,.1);  
+    
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    z-index: 2;
+}
+nav a{
+    font-size: 15px;
+    display: inline-block;
+    padding: 0px 25px;
+    line-height: 40px;
+	text-transform: uppercase;
+	color: rgb(224, 237, 252);
+	text-decoration: none;
+	position: relative;
+	text-align: center;
+    bottom: 10px;
+    z-index: 2;
+    transition: color 0.1s;
+}
+
+nav a::after{
+    content: '';
+    background: #0e171d;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    opacity: 0;
+
+}
+nav a:hover{
+    color: rgb(255, 255, 255);
+
+}
+nav a:hover::after{
+    opacity: 1;
+
+}
+div.Tbltw table{
+    border-collapse: collapse;
+    max-height: 60px;
+    overflow-y: scroll;
+}
+div.Tbltw th{
+    height: 70px;
+    border-bottom: 1px solid #979daf;
+   
+    background-color: #677077a2;
+}
+div.Tbltw tr:hover{
+    background-color: #ffffff;
+}
+div.Tbl tr td{
+    height: 50px;
+    
+}
+div.Tbl tr:nth-child(odd){
+    background-color: #b8bbc7;
+}
+div.Tbl tr:nth-child(even){
+    background-color: #e6e9ec;
+}
+div.Tbl tr:nth-child(even):hover{
+    background-color: #d9e8ff;
+}
+div.Tbl tr:nth-child(odd):hover{
+    background-color: #d9e8ff;
+}
+div.trainback{
+    background: linear-gradient(120deg,#9ab2c7,#ffffff);
+    
+}
+.backsrc{
+    background: #d0dfee;
+}
+.search{
+    position: relative;
+    top:20px;
+    width: 200px;
+    left:500px;
+    height: 30px;
+    border-radius: 15px;
+    outline: #475058;
+
+
+
+}
+.search:focus{
+    width:400px;
+    transition: .5s;
+    
+
+
+
+}
+.homebox{
+    border-radius: 10px;
+    border: 1px solid #545561;
+    outline: none;
+    height: 30px;
+    width: 200px;
+}
+.profbox{
+    border:none;
+    border-bottom: 2px solid #122c3d;
+    width: 200px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+}
+.logtr td{
+     padding: 10px 0;
+}
+.logtr2 td{
+    padding: 10px 0;
+}
+
+
